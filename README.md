@@ -1,9 +1,6 @@
 # qb-spawn
 Brichka Spawn Selector for QB-Core
 
-# Dependencies
-qb-core
-
 # Screenshots
 ![This is an image](https://i.imgur.com/ham53L8.png)
 ![This is an image](https://i.imgur.com/Hmj8eHw.png)
