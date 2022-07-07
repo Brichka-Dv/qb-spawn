@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+.container {
+    font-family: 'Source Sans Pro', monospace;
+}
+ 
+.spawn-locations {
+    position: relative;
+	
+    top: 20vh;
+    left: 10vh;
+}
+
+.location {
+    position: relative;
+    display: inline-block;
+    width: 5vh;
+    height: 5vh;
+    margin-top: 1.5vh;
+	margin-bottom: 1.5vh;
+	margin-left: 0.5vh;
+    background-color: rgba(10, 10, 10, 0.5);
+	box-shadow: 1px 1px 1px rgb(10, 10, 10);
+    font-family: 'Source Sans Pro', monospace;
+    border-bottom: 0.4vh solid #47688a;
+    transition: .3s linear;
+}
+.location:hover {
+    width: 28vh;
+}
+
+.location:hover > #slot-name {
+    font-size: 1.7vh;
+}
+
+.location:hover > #slot-icon {
+    color: #6e6e6e;
+}
+
+#slot-name {
+
+    position: absolute;
+    font-size: 0vh;
+    top: 1.5vh;
+    left: 8.0vh;
+    font-family: 'Oswald', sans-serif;
+}
+
+#slot-icon {
+    position: relative;
+    font-size: 5vh;
+    padding-right: 4vh;
+    padding-bottom: 4vh;
+}
+
+.selected {
+    background-color: #191e25;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+}
+
+.submit-spawn {
+    background-color: #47688a;
+    width: 28vh;
+    height: 4.5vh;
+    margin-bottom: .75vh;
+    transition: 0.2s;
+    border-radius: 5px;
+
+}
+
+.submit-spawn > p {
+    position: relative;
+    color: white;
+    text-align: center;
+    line-height: 4.5vh;
+    font-size: 13px;
+    font-family: 'Lato';
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.submit-spawn:hover {
+    background-color: #30475e;
+    transition: 0.2s;
+}
+
+#spawn-label {
+    font-weight: bold;
+}
+
+.loclabel {
+    width: 28vh;
+    height: 4.5vh;
+    margin-bottom: .75vh;
+    transition: 0.2s;
+    background-color: #47688a;
+    border-radius: 5px;
+
+}
+
+/* .loclabel:hover {
+    background-color: #47688a00;
+} */
+
+.loclabel > p {
+    border-radius: 5px;
+    font-family: 'Lato';
+    letter-spacing: 1px;
+    font-weight: bold;
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 4.5vh;
+    font-size: 14px;
+}
