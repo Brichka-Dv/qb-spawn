@@ -25,5 +25,5 @@ QB.Spawns = {
 }
 ```
 # rights 
--discord : https://discord.gg/p8HRkBZjh2
+- discord : https://discord.gg/p8HRkBZjh2
 - github: https://github.com/Brichka 
